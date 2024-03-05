@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <title>Ngọc vs Mạnh</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta property="og:image" content="https://playerinvn.github.io/rubyngoc/images/chibi-1.jpg" />
+  <meta property="og:description" content="Anh hỏi em câu này em phải trả lời thật lòng nha." />
+
+  <link rel="icon" type="image/x-icon" href="src/images/favicon-heart.png">
+  <link rel="stylesheet" type="text/css" href="dist/main.css">
+</head>
+
+<body>
+  <section class="box-finish">
+    <div class="container">
+      <div class="box-card">
+        <div class="card mt-3 pt-5 text-center align-self-center" style="max-width: 58rem">
+          <img src="../src/images/chibi-5.jpg" class="card-img-top item gs-animation-3" alt="..." />
+          <div class="card-body">
+            <h3 class="card-text item gs-animation-4">
+              Xin chúc mừng !!!
+            </h3>
+            <h1 class="card-title">
+              <div style="color: #ffeb3b" class="item2 gs-animation-1">Trần Mạnh</div>
+              <div class="gs-animation-6" style=" color: #fff; ">&amp;</div>
+              <div style="color: #ffeb3b" class="item3 gs-animation-2">Ngọc</div>
+            </h1>
+            <h3 class="card-text item gs-animation-5">
+              Hai bạn đã chính thức trở thành người yêu của nhau. &#10083;
+            </h3>
+            <a href="#!" class="btn item batnhac mt-3 gs-animation-4"><span style="color: #3bff96">&#9835;</span> Mở nhạc</a>
+            <a href="#!" class="btn item tatnhac mt-3 gs-animation-7">&#9888; Tắt nhạc</a>
+            <a href="index.html" class="btn item quaylai mt-3 gs-animation-5">&#9728; Quay lại trang đầu</a>
+            <br /><br /><br />
+            <p class="card-text item gs-animation-5">
+              Ngày bắt đầu: <span style="color: #ffeb3b">19:41:52 18-02-2024</span>
+            </p>
+            <!-- <p class="card-text item">
+              Ngày kết thúc: <span style="color: #ffeb3b">???</span>
+            </p> -->
+            <p class="card-text item gs-animation-4">
+              Hai bạn đã là người yêu của nhau trong:
+            </p>
+            <!-- <div class="card-text item" style="color: #ffeb3b">
+              ?? ngày
+            </div> -->
+            <div class="card-text item gs-animation-7" style="color: #ffeb3b">
+              <span id="timeDaYeuNhau_show"></span> ngày
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End section 4 -->
+
+  <script src="dist/main.js"></script>
+
+  <!-- Hoa rơi -->
+  <style type="text/css">
+    .snow-container {
+      position: fixed;
+      width: 100%;
+      max-width: 100%;
+      z-index: 99999;
+      pointer-events: none;
+      overflow: hidden;
+      top: 0;
+      height: 100%;
+    }
+
+    .snow {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+      -webkit-animation: snow linear infinite;
+      animation: snow linear infinite;
+    }
+
+    .snow.foreground {
+      background-image: url(../src/images/hoa-hong-3.png);
+      -webkit-animation-duration: 15s;
+      animation-duration: 10s;
+    }
+
+    .snow.foreground.layered {
+      -webkit-animation-delay: 7.5s;
+      animation-delay: 7.5s;
+    }
+
+    .snow.middleground {
+      background-image: url(../src/images/hoa-hong-3.png);
+      -webkit-animation-duration: 20s;
+      animation-duration: 15s;
+    }
+
+    .snow.middleground.layered {
+      -webkit-animation-delay: 10s;
+      animation-delay: 10s;
+    }
+
+    .snow.background {
+      background-image: url(../src/images/hoa-hong-3.png);
+      -webkit-animation-duration: 25s;
+      animation-duration: 20s;
+    }
+
+    .snow.background.layered {
+      -webkit-animation-delay: 12.5s;
+      animation-delay: 12.5s;
+    }
+
+    @-webkit-keyframes snow {
+      0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+      }
+
+      100% {
+        -webkit-transform: translate3d(5%, 100%, 0);
+        transform: translate3d(5%, 100%, 0);
+      }
+    }
+
+    @keyframes snow {
+      0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+      }
+
+      100% {
+        -webkit-transform: translate3d(5%, 100%, 0);
+        transform: translate3d(5%, 100%, 0);
+      }
+    }
+  </style>
+
+  <div class="snow-container">
+    <div class="snow foreground"></div>
+    <div class="snow foreground layered"></div>
+    <div class="snow middleground"></div>
+    <div class="snow middleground layered"></div>
+    <div class="snow background"></div>
+    <div class="snow background layered"></div>
+  </div>
+</body>
+
+</html>
