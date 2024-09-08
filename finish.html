@@ -28,26 +28,112 @@
               <div style="color: #ffeb3b" class="item3 gs-animation-2">Hồng Ngọc</div>
             </h1>
             <h3 class="card-text item gs-animation-5">
-              Hai bạn đã chính thức trở thành người yêu của nhau. &#10083;
+              <div style="text-decoration: line-through;">Hai bạn đã chính thức trở thành người yêu của nhau. &#10083;
+              </div>
+              <div>Hai bạn đã chính thức trở thành vợ chồng của nhau. &#10083;</div>
             </h3>
-            <a href="javascript:;" class="btn item batnhac mt-3 gs-animation-4"><span style="color: #3bff96">&#9835;</span> Mở nhạc</a>
+            <a href="javascript:;" class="btn item batnhac mt-3 gs-animation-4"><span
+                style="color: #3bff96">&#9835;</span> Mở nhạc</a>
             <a href="javascript:;" class="btn item tatnhac mt-3 gs-animation-7">&#9888; Tắt nhạc</a>
             <a href="/rubyngoc" class="btn item quaylai mt-3 gs-animation-5">&#9728; Quay lại trang đầu</a>
             <br /><br /><br />
             <p class="card-text item gs-animation-5">
-              Ngày bắt đầu: <span style="color: #ffeb3b">19:41:52 18-02-2024</span>
+              Ngày bắt đầu: <span style="color: #ffeb3b;text-decoration: line-through;">19:41:52 18-02-2024</span>
+              <br>
+              Ngày kết hôn: <span style="color: #ffeb3b">11:00:00 02-04-2024</span>
             </p>
+            <!-- <div class="wedding-invitation-box">
+              <img src="src/images/thiepcuoi.jpg" class="card-img-top item gs-animation-3" alt="thiep-cuoi" />
+            </div> -->
             <!-- <p class="card-text item">
               Ngày kết thúc: <span style="color: #ffeb3b">???</span>
             </p> -->
-            <p class="card-text item gs-animation-4">
+            <p class="card-text item gs-animation-4" style="margin-bottom: 0;">
               Hai bạn đã là người yêu của nhau trong:
             </p>
-            <!-- <div class="card-text item" style="color: #ffeb3b">
-              ?? ngày
-            </div> -->
+            <div class="card-text item gs-animation-7" style="margin-bottom: 20px;color: #ffeb3b">
+              <span id="timeDaYeuNhau_show"></span>
+            </div>
+
+            <p class="card-text item gs-animation-4" style="margin-bottom: 0;">
+              Hai bạn đã kết hôn được:
+            </p>
             <div class="card-text item gs-animation-7" style="color: #ffeb3b">
-              <span id="timeDaYeuNhau_show"></span> ngày
+              <span id="timeDaKetHon_show"></span>
+            </div>
+
+            <div class="box-achievement gs-animation-7">
+
+              <div class='box-achievement-paper'>
+                <div class="future">
+                  <div class="text-top">
+                    Hai bạn sẽ đạt thành tựu <strong style="color: #ffc107;">Paper Anniversary (Đám cưới giấy)</strong> sau:
+                  </div>
+                  <div class="text-time">
+                    <span class="resultKyNiemDamCuoi" id="resultKyNiemDamCuoiGiay_show"></span>
+                    <span class="display-resultKyNiem display-resultKyNiem-paper">
+                      <img src="src/images/achievement/paper.png" alt="dam-cuoi-giay" />
+                    </span>
+                  </div>
+                </div>
+                <div class="now">
+                  Chúc mừng hai bạn đạt thành tựu <strong style="color: #ffc107;">&nbsp;Paper Anniversary (Đám cưới giấy)&nbsp;</strong> sau <strong
+                    style="color: #ffc107;">&nbsp;1 năm&nbsp;</strong> kết hôn
+                  <span class="display-resultKyNiem display-resultKyNiem-paper">
+                    <img src="src/images/achievement/paper.png" alt="dam-cuoi-giay" />
+                  </span>
+                </div>
+                <div class="notice">
+                  1 năm - Đám cưới Giấy: Tượng trưng cho sự mong manh của năm đầu hôn nhân.
+                  <br><br>
+                  Kỷ niệm 1 năm ngày cưới, thường được gọi là Đám cưới Giấy, mang ý nghĩa sâu sắc và tinh tế. Nó tượng
+                  trưng cho sự khởi đầu của một cuộc hành trình chung đầy cảm xúc, thử thách, và sự học hỏi. Hình ảnh
+                  "giấy" không chỉ là một biểu tượng đơn giản, mà còn chứa đựng nhiều ý nghĩa sâu xa về tình yêu và mối
+                  quan hệ trong năm đầu tiên của hôn nhân.
+                  <br><br>
+                  "Giấy" là chất liệu mỏng manh, dễ rách và dễ bị ảnh hưởng bởi các yếu tố bên ngoài như nước, lửa, và
+                  va chạm. Điều này tượng trưng cho sự nhạy cảm của năm đầu hôn nhân, khi mà cả hai người vẫn đang trong
+                  quá trình tìm hiểu sâu hơn về nhau, khám phá những khía cạnh mới của cuộc sống chung.
+                  <br><br>
+                  Năm đầu tiên sau hôn nhân là thời kỳ dễ bị tổn thương vì cả hai người cần học cách đối mặt và giải
+                  quyết những khác biệt, những kỳ vọng chưa được thống nhất, và các mâu thuẫn nhỏ nhặt. Cần có sự kiên
+                  nhẫn, thấu hiểu và khéo léo để giữ cho "giấy" không bị "rách".
+                  <br><br>
+                  Giấy cũng đại diện cho sự trống trải, sẵn sàng được viết lên những câu chuyện mới. Cặp đôi ở năm đầu
+                  tiên hôn nhân thường bắt đầu định hình cho cuộc sống chung, xây dựng những quy tắc, thói quen, và ước
+                  mơ chung.
+                  <br><br>
+                  Giống như một tờ giấy trắng, mối quan hệ mới cần được chăm chút, ghi lên những điều đẹp đẽ và tránh xa
+                  những "vết mực" không thể xóa được. Đây là giai đoạn quan trọng để cặp đôi tạo nền móng cho cuộc sống
+                  hôn nhân lâu dài.
+                  <br><br>
+                  Giấy có thể gập, uốn và biến đổi thành nhiều hình dạng khác nhau. Điều này tượng trưng cho khả năng
+                  thích nghi của cặp đôi trong những ngày đầu của hôn nhân. Cặp đôi cần học cách linh hoạt trong suy
+                  nghĩ, điều chỉnh bản thân để phù hợp với người bạn đời và các tình huống mới.
+                  <br><br>
+                  Sự linh hoạt và khả năng chấp nhận thay đổi là yếu tố quan trọng để giúp hôn nhân vượt qua những sóng
+                  gió ban đầu và phát triển bền vững.
+                  <br><br>
+                  Mặc dù giấy mong manh, nó cũng có thể là nền tảng cho những điều tuyệt vời nếu được chăm sóc đúng
+                  cách. Trong năm đầu tiên, cặp đôi có thể bắt đầu xây dựng nền tảng cho sự phát triển trong tương lai
+                  bằng cách học cách giao tiếp, tin tưởng và hỗ trợ lẫn nhau.
+                  <br><br>
+                  Đây là cơ hội để cả hai người viết nên câu chuyện của riêng mình, cùng nhau trải nghiệm và lưu giữ
+                  những kỷ niệm quý giá trên "tờ giấy" đầu tiên của cuộc sống hôn nhân.
+                  <br><br>
+                  Kết Luận:<br>
+                  Đám cưới Giấy không chỉ là một dấu mốc để ăn mừng một năm hôn nhân mà còn là thời điểm để suy ngẫm,
+                  nhìn lại và đánh giá những gì đã trải qua. Nó nhắc nhở các cặp đôi về sự mong manh của tình yêu, và
+                  rằng một mối quan hệ cần được chăm sóc, bảo vệ và nuôi dưỡng để vượt qua những thử thách đầu đời và
+                  trưởng thành mạnh mẽ.
+                </div>
+              </div>
+              <!-- End box-achievement-paper -->
+
+              <div class="box-achievement-cotton" style=" color: #6c757d; ">
+                Thành tựu mở khóa tiếp theo ???
+              </div>
+
             </div>
 
           </div>
@@ -55,104 +141,103 @@
       </div>
     </div>
   </section>
-  <!-- End section 4 -->
+
+    <!-- Hoa rơi -->
+    <style type="text/css">
+      .snow-container {
+        position: fixed;
+        width: 100%;
+        max-width: 100%;
+        z-index: 99999;
+        pointer-events: none;
+        overflow: hidden;
+        top: 0;
+        height: 100%;
+      }
+  
+      .snow {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        -webkit-animation: snow linear infinite;
+        animation: snow linear infinite;
+      }
+  
+      .snow.foreground {
+        background-image: url(src/images/hoa-hong-3.png);
+        -webkit-animation-duration: 15s;
+        animation-duration: 10s;
+      }
+  
+      .snow.foreground.layered {
+        -webkit-animation-delay: 7.5s;
+        animation-delay: 7.5s;
+      }
+  
+      .snow.middleground {
+        background-image: url(src/images/hoa-hong-3.png);
+        -webkit-animation-duration: 20s;
+        animation-duration: 15s;
+      }
+  
+      .snow.middleground.layered {
+        -webkit-animation-delay: 10s;
+        animation-delay: 10s;
+      }
+  
+      .snow.background {
+        background-image: url(src/images/hoa-hong-3.png);
+        -webkit-animation-duration: 25s;
+        animation-duration: 20s;
+      }
+  
+      .snow.background.layered {
+        -webkit-animation-delay: 12.5s;
+        animation-delay: 12.5s;
+      }
+  
+      @-webkit-keyframes snow {
+        0% {
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+  
+        100% {
+          -webkit-transform: translate3d(5%, 100%, 0);
+          transform: translate3d(5%, 100%, 0);
+        }
+      }
+  
+      @keyframes snow {
+        0% {
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+  
+        100% {
+          -webkit-transform: translate3d(5%, 100%, 0);
+          transform: translate3d(5%, 100%, 0);
+        }
+      }
+    </style>
+  
+    <div class="snow-container">
+      <div class="snow foreground"></div>
+      <div class="snow foreground layered"></div>
+      <div class="snow middleground"></div>
+      <div class="snow middleground layered"></div>
+      <div class="snow background"></div>
+      <div class="snow background layered"></div>
+    </div>
 
   <script src="dist/main.js"></script>
-
-  <!-- Hoa rơi -->
-  <style type="text/css">
-    .snow-container {
-      position: fixed;
-      width: 100%;
-      max-width: 100%;
-      z-index: 99999;
-      pointer-events: none;
-      overflow: hidden;
-      top: 0;
-      height: 100%;
-    }
-
-    .snow {
-      display: block;
-      position: absolute;
-      z-index: 2;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      pointer-events: none;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-      -webkit-animation: snow linear infinite;
-      animation: snow linear infinite;
-    }
-
-    .snow.foreground {
-      background-image: url(src/images/hoa-hong-3.png);
-      -webkit-animation-duration: 15s;
-      animation-duration: 10s;
-    }
-
-    .snow.foreground.layered {
-      -webkit-animation-delay: 7.5s;
-      animation-delay: 7.5s;
-    }
-
-    .snow.middleground {
-      background-image: url(src/images/hoa-hong-3.png);
-      -webkit-animation-duration: 20s;
-      animation-duration: 15s;
-    }
-
-    .snow.middleground.layered {
-      -webkit-animation-delay: 10s;
-      animation-delay: 10s;
-    }
-
-    .snow.background {
-      background-image: url(src/images/hoa-hong-3.png);
-      -webkit-animation-duration: 25s;
-      animation-duration: 20s;
-    }
-
-    .snow.background.layered {
-      -webkit-animation-delay: 12.5s;
-      animation-delay: 12.5s;
-    }
-
-    @-webkit-keyframes snow {
-      0% {
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-      }
-
-      100% {
-        -webkit-transform: translate3d(5%, 100%, 0);
-        transform: translate3d(5%, 100%, 0);
-      }
-    }
-
-    @keyframes snow {
-      0% {
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-      }
-
-      100% {
-        -webkit-transform: translate3d(5%, 100%, 0);
-        transform: translate3d(5%, 100%, 0);
-      }
-    }
-  </style>
-
-  <div class="snow-container">
-    <div class="snow foreground"></div>
-    <div class="snow foreground layered"></div>
-    <div class="snow middleground"></div>
-    <div class="snow middleground layered"></div>
-    <div class="snow background"></div>
-    <div class="snow background layered"></div>
-  </div>
 </body>
 
 </html>
