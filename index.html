@@ -6,10 +6,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta property="og:image" content="https://playerinvn.github.io/rubyngoc/images/chibi-1.jpg" />
-  <meta property="og:description" content="Anh hỏi em câu này em phải trả lời thật lòng nha." />
+  <meta property="og:description" content="Ngọc vs Mạnh" />
 
-  <link rel="icon" type="image/x-icon" href="src/images/favicon-heart.png">
-  <link rel="stylesheet" type="text/css" href="dist/main.css">
+  <link rel="icon" type="image/x-icon" href="./src/images/favicon-heart.png">
+  <link rel="stylesheet" type="text/css" href="./dist/main.css">
 </head>
 
 <body>
@@ -71,6 +71,27 @@
             <div class="box-achievement gs-animation-7">
               <div id="weddingAnniversaryList" class="wedding-anniversary-list"></div>
 
+              <div class="media-filter" aria-label="Tìm media kỷ niệm">
+                <div class="media-filter-heading">
+                  <div>
+                    <div class="media-filter-title">Thư viện kỷ niệm</div>
+                    <div class="media-filter-subtitle">Tìm nhanh theo tên file hoặc ngày chụp</div>
+                  </div>
+                  <div id="mediaFilterCount" class="media-filter-count" aria-live="polite"></div>
+                </div>
+                <div class="media-filter-controls">
+                  <div class="media-filter-search">
+                    <input id="mediaSearch" type="search" placeholder="Tìm: 2025, tháng 5, IMG..." autocomplete="off">
+                  </div>
+                  <div class="media-filter-selects">
+                    <select id="mediaYearFilter" aria-label="Lọc theo năm"></select>
+                    <select id="mediaMonthFilter" aria-label="Lọc theo tháng"></select>
+                    <button id="mediaFilterReset" type="button" disabled>Xóa lọc</button>
+                  </div>
+                </div>
+              </div>
+              <div id="mediaFilterEmpty" class="media-filter-empty" hidden>Không tìm thấy media phù hợp.</div>
+
               <div class="slider-achievement swiper mt-3 mb-5">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
@@ -98,87 +119,136 @@
                     <img src="./src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/01/26605efca6ff27a17eee.jpg">
+                    <img src="./src/media/2025/01/18/752b4378bc7b3d25646a.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/01/752b4378bc7b3d25646a.jpg">
+                    <img src="./src/media/2025/01/28/386ba2d412d79389cac6.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/01/a51d54d8acdb2d8574ca.jpg">
+                    <img src="./src/media/2025/01/30/2de0be070e048f5ad615.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/02/7f650d6af56974372d78.jpg">
+                    <img src="./src/media/2025/01/30/IMG_20250130_164401355_HDR.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/03/77f91e8ee68d67d33e9c.jpg">
+                    <img src="./src/media/2025/01/30/a51d54d8acdb2d8574ca.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/03/eedde4bf1cbc9de2c4ad.jpg">
+                    <img src="./src/media/2025/02/20/851235fd84fe05a05cef.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/04/9579769d8f9e0ec0578f.jpg">
+                    <img src="./src/media/2025/02/23/7f650d6af56974372d78.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/404fb8b442b7c3e99aa6.jpg">
+                    <img src="./src/media/2025/03/20/77f91e8ee68d67d33e9c.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/8ed34536bf353e6b6724.jpg">
+                    <img src="./src/media/2025/03/20/eedde4bf1cbc9de2c4ad.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/8f9694eb6de8ecb6b5f9.jpg">
+                    <img src="./src/media/2025/04/02/9579769d8f9e0ec0578f.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/d7388e2d772ef670af3f.jpg">
+                    <img src="./src/media/2025/04/02/edc02ee59fe61eb847f7.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/da840782fe817fdf2690.jpg">
+                    <img src="./src/media/2025/04/27/4501921794485207630.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/05/fb7223f8d9fb58a501ea.jpg">
+                    <img src="./src/media/2025/04/30/17bbb6da07d98687dfc8.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/06/5b2ab4f44ef7cfa996e6.jpg">
+                    <img src="./src/media/2025/04/30/2852836982774897699.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/11/07a68eca74c9f597acd8.jpg">
+                    <img src="./src/media/2025/04/30/87464711837275081.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/12/0eefbf704473c52d9c62.jpg">
+                    <img src="./src/media/2025/05/03/3362749084548238057.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/12/a5d7e1071a049b5ac215.jpg">
+                    <img src="./src/media/2025/05/03/IMG_20250503_075028365_HDR.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2025/12/e5c897946d97ecc9b586.jpg">
-                  </div>
-
-                  <div class="swiper-slide">
-                    <img src="./src/media/2024/03/02/CocNuoc1.jpg">
+                    <img src="./src/media/2025/05/08/2608691561628258352.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/03/Ngoc_2.jpg">
+                    <img src="./src/media/2025/05/08/3618841469628670019.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/03/Nice_Manh_3.JPG">
+                    <img src="./src/media/2025/05/08/da840782fe817fdf2690.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/03/End_San_Ho.jpeg">
+                    <img src="./src/media/2025/05/11/8f9694eb6de8ecb6b5f9.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/08/HKRDDLKhwBUU.jpg">
+                    <img src="./src/media/2025/05/12/d7388e2d772ef670af3f.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/09/1212ec6527708b2ed26120.jpg">
+                    <img src="./src/media/2025/05/13/404fb8b442b7c3e99aa6.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/17/20240317_210049.jpg">
+                    <img src="./src/media/2025/05/13/c5ab2c679e641f3a4675.jpg">
                   </div>
                   <div class="swiper-slide">
-                    <img src="./src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
+                    <img src="./src/media/2025/06/03/5b2ab4f44ef7cfa996e6.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/08/02/f93bc1727371f22fab60.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/08/09/88f5e1335230d36e8a21.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/09/03/1218169224460258247.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/09/03/3388195227674908665.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/09/07/IMG_20250907_120659267_HDR.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/11/28/07a68eca74c9f597acd8.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/11/29/a99e5265ef666e383777.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/01/e5c897946d97ecc9b586.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/06/0eefbf704473c52d9c62.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/06/5c6fd7266a25eb7bb234.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/09/f037478bf98878d62199.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/20/a9e7f44c4b4fca11935e.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/media/2025/12/25/a5d7e1071a049b5ac215.jpg">
                   </div>
                 </div>
               </div>
 
+            </div>
+
+            <div id="mediaLightbox" class="media-lightbox" role="dialog" aria-modal="true" aria-hidden="true"
+              aria-labelledby="mediaLightboxCaption">
+              <button id="mediaLightboxClose" class="media-lightbox-close" type="button"
+                aria-label="Đóng">&times;</button>
+              <div class="media-lightbox-content">
+                <img id="mediaLightboxImage" src="" alt="">
+                <div class="media-lightbox-footer">
+                  <div id="mediaLightboxCaption" class="media-lightbox-caption"></div>
+                  <a id="mediaLightboxOriginal" class="media-lightbox-original" href="#" target="_blank"
+                    rel="noopener">Mở ảnh gốc</a>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -293,7 +363,7 @@
 
   </style>
 
-  <script src="dist/main.js"></script>
+  <script src="./dist/main.js"></script>
 </body>
 
 </html>
