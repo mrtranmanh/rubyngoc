@@ -16,20 +16,21 @@
   <section class="box-finish">
     <div class="">
       <div class="box-card">
-        <div class="card mt-3 pt-5 text-center align-self-center" style="">
+        <div class="card finish-card mt-3 text-center align-self-center">
           <!-- <img src="src/images/chibi-5.jpg" class="card-img-top item gs-animation-3" alt="..." /> -->
           <div class="card-body">
-            <h3 class="card-text item gs-animation-4">
-              Xin chúc mừng !!!
+            <h3 class="finish-eyebrow card-text item gs-animation-4">
+              Xin chúc mừng
             </h3>
-            <h1 class="card-title">
-              <div style="font-family: 'VN-Sunshine-Script', 'Arial', sans-serif;font-size: 48px;color: #ffeb3b"
-                class="item2 gs-animation-1">Trần Mạnh</div>
-              <div class="gs-animation-6" style="display: flex; align-items: center;color:#f44336">&#10084;</div>
-              <div style="font-family: 'VN-Sunshine-Script', 'Arial', sans-serif;font-size: 48px;color: #ffeb3b"
-                class="item3 gs-animation-2">Hồng Ngọc</div>
+            <h1 class="card-title finish-title">
+              <div class="finish-name item2 gs-animation-1">Trần Mạnh</div>
+              <div class="finish-heart gs-animation-6">&#10084;</div>
+              <div class="finish-name item3 gs-animation-2">Hồng Ngọc</div>
             </h1>
-            <h3 class="card-text item gs-animation-5">
+            <p class="finish-quote item gs-animation-5">
+              Từ hôm nay <span style="color: #ffeb3b">(02/04/2024)</span>, nhà là nơi có cả hai.
+            </p>
+            <h3 class="finish-subtitle card-text item gs-animation-5">
               <div>Hai bạn đã chính thức trở thành vợ chồng của nhau. 🎉🎉🎉</div>
             </h3>
             <br />
@@ -41,7 +42,7 @@
             </div>
 
             <br /><br />
-            <p class="card-text item gs-animation-5">
+            <p class="card-text item gs-animation-5 hidden">
               Lần đầu gặp mặt: <span style="color: #ffeb3b;">19:41:52 18-02-2024</span>
               <br>
               Ngày kết hôn: <span style="color: #ffeb3b">11:00:00 02-04-2024</span>
@@ -52,223 +53,130 @@
             <!-- <p class="card-text item">
               Ngày kết thúc: <span style="color: #ffeb3b">???</span>
             </p> -->
-            <p class="card-text item gs-animation-4" style="margin-bottom: 0;">
+            <p class="card-text item gs-animation-4 hidden" style="margin-bottom: 0;">
               Hai bạn đã là người yêu của nhau trong:
             </p>
-            <div class="card-text item gs-animation-7"
+            <div class="card-text item gs-animation-7 hidden"
               style="display: flex; justify-content: center;margin-bottom: 20px;color: #ffeb3b;display: flex; align-items: center;">
               <span id="timeDaYeuNhau_show"></span>
             </div>
 
-            <p class="card-text item gs-animation-4" style="margin-bottom: 0;">
+            <p class="time-label card-text item gs-animation-4">
               Hai bạn đã kết hôn được:
             </p>
-            <div class="card-text item gs-animation-7" style="color: #ffeb3b">
+            <div class="anniversary-time card-text item gs-animation-7">
               <span id="timeDaKetHon_show"></span>
             </div>
 
             <div class="box-achievement gs-animation-7">
+              <div id="weddingAnniversaryList" class="wedding-anniversary-list"></div>
 
-              <div class='box-achievement-paper'>
-                <div class="future">
-                  <div class="text-top">
-                    Hai bạn sẽ đạt thành tựu <strong style="color: #ffc107;">📜 Paper Anniversary (Đám cưới
-                      giấy)</strong>
-                    sau:
+              <div class="slider-achievement swiper mt-3 mb-5">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/02/CocNuoc1.jpg">
                   </div>
-                  <div class="text-time">
-                    <span class="resultKyNiemDamCuoi" id="resultKyNiemDamCuoiGiay_show"></span>
-                    <span class="display-resultKyNiem display-resultKyNiem-paper blink-text"><small>Xem
-                        thêm</small></span>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/Ngoc_2.jpg">
                   </div>
-                </div>
-                <div class="now">
-                    Chúc mừng hai bạn đạt thành tựu <strong style="color: #ffc107;">📜 Paper Anniversary (Đám cưới
-                    giấy)</strong> sau <strong style="color: #ffc107;">&nbsp;1 năm&nbsp;</strong> kết hôn.
-                    <span class="display-resultKyNiem display-resultKyNiem-paper blink-text"><small>Xem
-                      thêm</small></span>
-                </div>
-                <div class="notice container">
-                  <h4>📜 1 năm - Đám cưới Giấy: Tượng trưng cho sự mong manh của năm đầu hôn nhân.</h4>
-                  <br>
-                  Kỷ niệm 1 năm ngày cưới, thường được gọi là Đám cưới Giấy, mang ý nghĩa sâu sắc và tinh tế. Nó tượng
-                  trưng cho sự khởi đầu của một cuộc hành trình chung đầy cảm xúc, thử thách, và sự học hỏi. Hình ảnh
-                  "giấy" không chỉ là một biểu tượng đơn giản, mà còn chứa đựng nhiều ý nghĩa sâu xa về tình yêu và mối
-                  quan hệ trong năm đầu tiên của hôn nhân.
-                  <br><br>
-                  "Giấy" là chất liệu mỏng manh, dễ rách và dễ bị ảnh hưởng bởi các yếu tố bên ngoài như nước, lửa, và
-                  va chạm. Điều này tượng trưng cho sự nhạy cảm của năm đầu hôn nhân, khi mà cả hai người vẫn đang trong
-                  quá trình tìm hiểu sâu hơn về nhau, khám phá những khía cạnh mới của cuộc sống chung.
-                  <br><br>
-                  Năm đầu tiên sau hôn nhân là thời kỳ dễ bị tổn thương vì cả hai người cần học cách đối mặt và giải
-                  quyết những khác biệt, những kỳ vọng chưa được thống nhất, và các mâu thuẫn nhỏ nhặt. Cần có sự kiên
-                  nhẫn, thấu hiểu và khéo léo để giữ cho "giấy" không bị "rách".
-                  <br><br>
-                  Giấy cũng đại diện cho sự trống trải, sẵn sàng được viết lên những câu chuyện mới. Cặp đôi ở năm đầu
-                  tiên hôn nhân thường bắt đầu định hình cho cuộc sống chung, xây dựng những quy tắc, thói quen, và ước
-                  mơ chung.
-                  <br><br>
-                  Giống như một tờ giấy trắng, mối quan hệ mới cần được chăm chút, ghi lên những điều đẹp đẽ và tránh xa
-                  những "vết mực" không thể xóa được. Đây là giai đoạn quan trọng để cặp đôi tạo nền móng cho cuộc sống
-                  hôn nhân lâu dài.
-                  <br><br>
-                  Giấy có thể gập, uốn và biến đổi thành nhiều hình dạng khác nhau. Điều này tượng trưng cho khả năng
-                  thích nghi của cặp đôi trong những ngày đầu của hôn nhân. Cặp đôi cần học cách linh hoạt trong suy
-                  nghĩ, điều chỉnh bản thân để phù hợp với người bạn đời và các tình huống mới.
-                  <br><br>
-                  Sự linh hoạt và khả năng chấp nhận thay đổi là yếu tố quan trọng để giúp hôn nhân vượt qua những sóng
-                  gió ban đầu và phát triển bền vững.
-                  <br><br>
-                  Mặc dù giấy mong manh, nó cũng có thể là nền tảng cho những điều tuyệt vời nếu được chăm sóc đúng
-                  cách. Trong năm đầu tiên, cặp đôi có thể bắt đầu xây dựng nền tảng cho sự phát triển trong tương lai
-                  bằng cách học cách giao tiếp, tin tưởng và hỗ trợ lẫn nhau.
-                  <br><br>
-                  Đây là cơ hội để cả hai người viết nên câu chuyện của riêng mình, cùng nhau trải nghiệm và lưu giữ
-                  những kỷ niệm quý giá trên "tờ giấy" đầu tiên của cuộc sống hôn nhân.
-                  <br><br>
-                  Kết Luận:<br>
-                  Đám cưới Giấy không chỉ là một dấu mốc để ăn mừng một năm hôn nhân mà còn là thời điểm để suy ngẫm,
-                  nhìn lại và đánh giá những gì đã trải qua. Nó nhắc nhở các cặp đôi về sự mong manh của tình yêu, và
-                  rằng một mối quan hệ cần được chăm sóc, bảo vệ và nuôi dưỡng để vượt qua những thử thách đầu đời và
-                  trưởng thành mạnh mẽ.
-                </div>
-                <div class="slider-achievement swiper mt-3 mb-5">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/02/CocNuoc1.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/Ngoc_2.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/Nice_Manh_3.JPG">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/End_San_Ho.jpeg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/08/HKRDDLKhwBUU.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/09/1212ec6527708b2ed26120.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/17/20240317_210049.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
-                    </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/Nice_Manh_3.JPG">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/End_San_Ho.jpeg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/08/HKRDDLKhwBUU.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/09/1212ec6527708b2ed26120.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/17/20240317_210049.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/01/26605efca6ff27a17eee.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/01/752b4378bc7b3d25646a.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/01/a51d54d8acdb2d8574ca.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/02/7f650d6af56974372d78.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/03/77f91e8ee68d67d33e9c.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/03/eedde4bf1cbc9de2c4ad.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/04/9579769d8f9e0ec0578f.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/404fb8b442b7c3e99aa6.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/8ed34536bf353e6b6724.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/8f9694eb6de8ecb6b5f9.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/d7388e2d772ef670af3f.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/da840782fe817fdf2690.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/05/fb7223f8d9fb58a501ea.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/06/5b2ab4f44ef7cfa996e6.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/11/07a68eca74c9f597acd8.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/12/0eefbf704473c52d9c62.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/12/a5d7e1071a049b5ac215.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2025/12/e5c897946d97ecc9b586.jpg">
+                  </div>
 
-
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/02/CocNuoc1.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/Ngoc_2.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/Nice_Manh_3.JPG">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/03/End_San_Ho.jpeg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/08/HKRDDLKhwBUU.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/09/1212ec6527708b2ed26120.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/17/20240317_210049.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
-                    </div>
-
-
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/02/CocNuoc1.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/Ngoc_2.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/Nice_Manh_3.JPG">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/03/End_San_Ho.jpeg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/08/HKRDDLKhwBUU.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/09/1212ec6527708b2ed26120.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/17/20240317_210049.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/src/media/2024/03/24/0a9e7129efb35fed06a26.jpg">
                   </div>
                 </div>
-              </div>
-              <!-- End box-achievement-paper -->
-
-              <div class='box-achievement-cotton'>
-                <div class="future">
-                  <div class="text-top">
-                    Hai bạn sẽ đạt thành tựu <strong style="color: #ffc107;">🪡 Cotton Anniversary (Đám cưới
-                      Bông)</strong> sau:
-                  </div>
-                  <div class="text-time">
-                    <span class="resultKyNiemDamCuoi" id="resultKyNiemDamCuoiBong_show"></span>
-                    <span class="display-resultKyNiem display-resultKyNiem-cotton blink-text"><small>Xem thêm</small>
-                    </span>
-                  </div>
-                </div>
-                <div class="now">
-                  Chúc mừng hai bạn đạt thành tựu <strong style="color: #ffc107;">🪡 Cotton Anniversary (Đám cưới
-                    Bông)</strong>
-                  sau <strong style="color: #ffc107;">&nbsp;2 năm&nbsp;</strong> kết hôn.
-                </div>
-                <div class="notice container">
-                  <h4>🪡 2 năm - Đám cưới Bông: Biểu tượng của sự mềm mại, linh hoạt và bền vững trong hôn nhân.</h4>
-                  <br>
-                  Đám cưới Bông là cột mốc đánh dấu 2 năm bên nhau của một cặp vợ chồng. "Bông" tượng trưng cho sự mềm
-                  mại, linh hoạt và khả năng thích nghi, thể hiện cách mà tình yêu của hai bạn đã trở nên thoải mái hơn
-                  theo thời gian.
-                  <br><br>
-                  Trong năm thứ hai, cặp đôi đã bắt đầu hiểu nhau sâu sắc hơn, chấp nhận những khác biệt, cùng nhau vượt
-                  qua thử thách và điều chỉnh cuộc sống chung để trở nên hòa hợp hơn. Hôn nhân giống như một tấm vải
-                  bông mềm mại – tuy nhẹ nhàng nhưng cũng có thể bền bỉ nếu được chăm sóc đúng cách.
-                  <br><br>
-                  Bông là chất liệu dễ uốn nắn, điều đó cũng giống như một mối quan hệ cần sự linh hoạt, nhẫn nại và sự
-                  thấu hiểu từ cả hai phía. Những khác biệt ban đầu có thể dần được điều chỉnh, những tranh cãi có thể
-                  hóa giải, và sự gắn kết ngày càng chặt chẽ hơn.
-                  <br><br>
-                  Ngoài ra, bông còn đại diện cho sự ấm áp và thoải mái. Trong năm thứ hai, cặp đôi thường đã xây dựng
-                  được một cuộc sống ổn định hơn, tạo nên không gian yêu thương, ấm áp và đầy sự chăm sóc dành cho nhau.
-                  <br><br>
-                  Mối quan hệ cũng như một sợi bông có thể kéo dài vô tận nếu cả hai tiếp tục vun đắp tình cảm, giữ gìn
-                  sự nhẹ nhàng và kiên nhẫn trong hôn nhân.
-                  <br><br>
-                  <h3>🌪️ Những khó khăn và thách thức trong năm thứ hai</h3><br>
-                  🔹 **Sự mất đi của cảm giác mới mẻ**<br>
-                  Khi bước sang năm thứ hai, cặp đôi có thể nhận thấy rằng cảm giác hồi hộp, đam mê ban đầu đã giảm dần.
-                  Tình yêu không còn những cảm xúc bùng cháy như lúc đầu, thay vào đó là sự quen thuộc, đôi khi là nhàm
-                  chán.
-                  <br>
-                  🔹 **Những khác biệt trở nên rõ ràng hơn**<br>
-                  Nếu trong năm đầu tiên, hai người còn có thể dễ dàng bỏ qua những thói quen nhỏ của nhau, thì sang năm
-                  thứ hai, những khác biệt về lối sống, quan điểm và thói quen có thể trở thành vấn đề.
-                  <br>
-                  🔹 **Xung đột về tài chính**<br>
-                  Khi cả hai bắt đầu ổn định hơn trong cuộc sống hôn nhân, các vấn đề tài chính như tiết kiệm, chi tiêu
-                  hoặc đầu tư có thể gây ra tranh cãi. Nếu không có sự thống nhất, đây có thể trở thành nguyên nhân lớn
-                  dẫn đến căng thẳng.
-                  <br>
-                  🔹 **Sự lặp lại và nhàm chán**<br>
-                  Cuộc sống hàng ngày bắt đầu trở nên đều đặn với những công việc quen thuộc: đi làm, nấu ăn, dọn dẹp,
-                  nghỉ ngơi… Nếu không tìm cách làm mới mối quan hệ, hai bạn có thể cảm thấy cuộc sống hôn nhân mất dần
-                  sự thú vị.
-                  <br>
-                  🔹 **Áp lực từ gia đình và xã hội**<br>
-                  Sau 2 năm kết hôn, những câu hỏi như "Bao giờ có con?", "Khi nào mua nhà?", "Công việc ổn định chưa?"
-                  có thể gây áp lực lên cả hai. Nếu không cùng nhau đối mặt, điều này có thể tạo ra khoảng cách giữa hai
-                  vợ chồng.
-                  <br>
-                  🔹 **Sự cân bằng giữa công việc và gia đình**<br>
-                  Khi cả hai bắt đầu tập trung hơn vào sự nghiệp, có thể sẽ có ít thời gian dành cho nhau hơn. Việc
-                  không ưu tiên thời gian cho mối quan hệ có thể khiến tình cảm dần phai nhạt.
-                  <br><br>
-                  <strong>Kết Luận:</strong><br>
-                  Đám cưới Bông là một lời nhắc nhở rằng dù hôn nhân cần sự vững chắc, nhưng nó cũng phải mềm mại và
-                  linh hoạt. Khi cả hai cùng nỗ lực vun đắp tình yêu, hôn nhân sẽ trở nên êm đềm, nhẹ nhàng nhưng vẫn
-                  bền vững theo thời gian.
-                </div>
-              </div>
-              <!-- End box-achievement-cotton -->
-
-
-              <div class="box-achievement-leather" style=" color: #6c757d; ">
-                Thành tựu mở khóa tiếp theo ???
               </div>
 
             </div>
@@ -291,11 +199,12 @@
       position: fixed;
       width: 100%;
       max-width: 100%;
-      z-index: 99999;
+      z-index: 2;
       pointer-events: none;
       overflow: hidden;
       top: 0;
       height: 100%;
+      opacity: .72;
     }
 
     .snow {
