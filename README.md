@@ -7,7 +7,7 @@ https://codebeautify.org/javascript-obfuscator#
 Thêm ảnh kỷ niệm:
 
 1. Copy ảnh vào `src/media/YYYY/MM/DD/`.
-2. Nếu muốn đặt mô tả riêng, thêm dòng tương ứng trong `src/media-captions.json`.
+2. Nếu muốn đặt tiêu đề hoặc mô tả riêng, sửa `title` / `caption` của ảnh tương ứng trong `src/media-manifest.json`.
 3. Chạy `npm run media:manifest` hoặc `npm run build` để tự quét ảnh và tạo thumbnail WebP.
 
 Chọn ảnh nổi bật theo năm:
