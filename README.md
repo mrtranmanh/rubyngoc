@@ -4,6 +4,18 @@ npm run package:site
 
 https://codebeautify.org/javascript-obfuscator#
 
+Thêm ảnh kỷ niệm:
+
+1. Copy ảnh vào `src/media/YYYY/MM/DD/`.
+2. Nếu muốn đặt mô tả riêng, thêm dòng tương ứng trong `src/media-captions.json`.
+3. Chạy `npm run media:manifest` hoặc `npm run build` để tự quét ảnh và tạo thumbnail WebP.
+
+Chọn ảnh nổi bật theo năm:
+
+1. Mở `src/featured-media.json`.
+2. Mỗi năm giữ khoảng 3-5 đường dẫn ảnh trong `photos`.
+3. Chạy lại `npm run build`.
+
 Kỷ Niệm Ngày Cưới Theo Năm
 
 1 năm - Đám cưới Giấy: Tượng trưng cho sự mong manh của năm đầu hôn nhân.

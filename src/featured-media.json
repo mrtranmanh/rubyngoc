@@ -1,0 +1,24 @@
+{
+  "years": [
+    {
+      "year": "2024",
+      "photos": [
+        "./src/media/2024/03/24/0a9e7129efb35fed06a26.jpg",
+        "./src/media/2024/03/17/20240317_210049.jpg",
+        "./src/media/2024/03/03/End_San_Ho.jpeg",
+        "./src/media/2024/03/08/HKRDDLKhwBUU.jpg",
+        "./src/media/2024/03/09/1212ec6527708b2ed26120.jpg"
+      ]
+    },
+    {
+      "year": "2025",
+      "photos": [
+        "./src/media/2025/05/09/2608691561628258352.jpg",
+        "./src/media/2025/04/02/9579769d8f9e0ec0578f.jpg",
+        "./src/media/2025/05/03/3362749084548238057.jpg",
+        "./src/media/2025/12/25/a5d7e1071a049b5ac215.jpg",
+        "./src/media/2025/12/01/e5c897946d97ecc9b586.jpg"
+      ]
+    }
+  ]
+}
