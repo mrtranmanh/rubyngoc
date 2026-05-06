@@ -4,11 +4,11 @@ npm run package:site
 
 https://codebeautify.org/javascript-obfuscator#
 
-Thêm ảnh kỷ niệm:
+Thêm ảnh/video kỷ niệm:
 
-1. Copy ảnh vào `src/media/YYYY/MM/DD/`.
-2. Nếu muốn đặt tiêu đề hoặc mô tả riêng, sửa `title` / `caption` của ảnh tương ứng trong `src/media-manifest.json`.
-3. Chạy `npm run media:manifest` hoặc `npm run build` để tự quét ảnh và tạo thumbnail WebP.
+1. Copy ảnh hoặc video vào `src/media/YYYY/MM/DD/`.
+2. Nếu muốn đặt tiêu đề hoặc mô tả riêng, sửa `title` / `caption` của media tương ứng trong `src/media-manifest.json`.
+3. Chạy `npm run media:manifest` hoặc `npm run build` để tự quét media và tạo thumbnail WebP. Video sẽ dùng `ffmpeg` để tạo poster nếu máy có cài; nếu không, slider vẫn mở được video bằng file gốc.
 
 Chọn ảnh nổi bật theo năm:
 
