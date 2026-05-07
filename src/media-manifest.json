@@ -136,6 +136,21 @@
       "thumbnailHeight": 324
     },
     {
+      "src": "./src/media/2024/04/21/4343574880034527628.jpg",
+      "thumbnail": "./src/media-thumbs/2024/04/21/4343574880034527628.webp",
+      "fileName": "4343574880034527628.jpg",
+      "type": "image",
+      "title": "Ăn kem lúc rưả mũ bảo hiểm BigC",
+      "year": "2024",
+      "month": "04",
+      "day": "21",
+      "dateLabel": "21/04/2024",
+      "width": 2560,
+      "height": 1151,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 324
+    },
+    {
       "src": "./src/media/2024/04/29/20240429_072949.jpg",
       "thumbnail": "./src/media-thumbs/2024/04/29/20240429_072949.webp",
       "fileName": "20240429_072949.jpg",
@@ -913,6 +928,21 @@
       "width": 1439,
       "height": 2560,
       "thumbnailWidth": 405,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2025/09/02/119933218054075820.jpg",
+      "thumbnail": "./src/media-thumbs/2025/09/02/119933218054075820.webp",
+      "fileName": "119933218054075820.jpg",
+      "type": "image",
+      "title": "Xem bắn pháo hoa hồ Nam Đồng",
+      "year": "2025",
+      "month": "09",
+      "day": "02",
+      "dateLabel": "02/09/2025",
+      "width": 1151,
+      "height": 2560,
+      "thumbnailWidth": 324,
       "thumbnailHeight": 720
     },
     {
