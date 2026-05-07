@@ -26,10 +26,10 @@ Kỷ Niệm Ngày Cưới Theo Năm
 | 4 năm  | Đám cưới Trái cây và Hoa | Fruit and Flowers Anniversary |
 | 5 năm  | Đám cưới Gỗ            | Wood Anniversary              |
 | 6 năm  | Đám cưới Sắt           | Iron Anniversary              |
-| 7 năm  | Đám cưới Len           | Wool and Copper Anniversary   |
+| 7 năm  | Đám cưới Len           | Wool Anniversary   |
 | 8 năm  | Đám cưới Đồng          | Bronze Anniversary            |
 | 9 năm  | Đám cưới Gốm           | Pottery Anniversary           |
-| 10 năm | Đám cưới Thiếc         | Tin or Aluminum Anniversary   |
+| 10 năm | Đám cưới Thiếc         | Tin Anniversary   |
 | 15 năm | Đám cưới Pha lê        | Crystal Anniversary           |
 | 20 năm | Đám cưới Sứ            | China Anniversary             |
 | 25 năm | Đám cưới Bạc           | Silver Anniversary            |
