@@ -1304,6 +1304,36 @@
       "height": 2560,
       "thumbnailWidth": 720,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/05/10/40699289592655362.jpg",
+      "thumbnail": "./src/media-thumbs/2026/05/10/40699289592655362.webp",
+      "fileName": "40699289592655362.jpg",
+      "type": "image",
+      "title": "Đạp vịt Hồ Tây",
+      "year": "2026",
+      "month": "05",
+      "day": "10",
+      "dateLabel": "10/05/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/05/10/2890726883609794659.jpg",
+      "thumbnail": "./src/media-thumbs/2026/05/10/2890726883609794659.webp",
+      "fileName": "2890726883609794659.jpg",
+      "type": "image",
+      "title": "Đạp vịt Hồ Tây",
+      "year": "2026",
+      "month": "05",
+      "day": "10",
+      "dateLabel": "10/05/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
