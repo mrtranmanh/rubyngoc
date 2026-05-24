@@ -1364,6 +1364,21 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/05/22/2aOboQYFBJh3N2N7KqpYyIw0CHZ5NgQUtT8WD0Ay.jpg",
+      "thumbnail": "./src/media-thumbs/2026/05/22/2aOboQYFBJh3N2N7KqpYyIw0CHZ5NgQUtT8WD0Ay.webp",
+      "fileName": "2aOboQYFBJh3N2N7KqpYyIw0CHZ5NgQUtT8WD0Ay.jpg",
+      "type": "image",
+      "title": "The Root Boardgame Cafe Trần Xuân Soạn",
+      "year": "2026",
+      "month": "05",
+      "day": "22",
+      "dateLabel": "22/05/2026",
+      "width": 2560,
+      "height": 1920,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 540
     }
   ]
 }
