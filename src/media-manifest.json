@@ -1379,6 +1379,36 @@
       "height": 1920,
       "thumbnailWidth": 720,
       "thumbnailHeight": 540
+    },
+    {
+      "src": "./src/media/2026/06/07/2aOboQbsmAYT7NGhPueCfHUJHVaIQEFak69ShV7A.jpg",
+      "thumbnail": "./src/media-thumbs/2026/06/07/2aOboQbsmAYT7NGhPueCfHUJHVaIQEFak69ShV7A.webp",
+      "fileName": "2aOboQbsmAYT7NGhPueCfHUJHVaIQEFak69ShV7A.jpg",
+      "type": "image",
+      "title": "Bánh gối Thái Thịnh",
+      "year": "2026",
+      "month": "06",
+      "day": "07",
+      "dateLabel": "07/06/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/06/07/the-root.jpg",
+      "thumbnail": "./src/media-thumbs/2026/06/07/the-root.webp",
+      "fileName": "the-root.jpg",
+      "type": "image",
+      "title": "The Root Boardgame Cafe Ngọc Hà",
+      "year": "2026",
+      "month": "06",
+      "day": "07",
+      "dateLabel": "07/06/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
