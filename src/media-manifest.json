@@ -1409,6 +1409,21 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/06/10/banh-my-bo-dang-van-ngu.jpg",
+      "thumbnail": "./src/media-thumbs/2026/06/10/banh-my-bo-dang-van-ngu.webp",
+      "fileName": "banh-my-bo-dang-van-ngu.jpg",
+      "type": "image",
+      "title": "Bánh mỳ bơ thịt xiên Đặng Văn Ngữ",
+      "year": "2026",
+      "month": "06",
+      "day": "10",
+      "dateLabel": "10/06/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
