@@ -1426,6 +1426,21 @@
       "thumbnailHeight": 720
     },
     {
+      "src": "./src/media/2026/06/13/cau-vinh-tuy.mp4",
+      "thumbnail": "./src/media-thumbs/2026/06/13/cau-vinh-tuy-video.webp",
+      "fileName": "cau-vinh-tuy.mp4",
+      "type": "video",
+      "title": "Cầu Vĩnh Tuy",
+      "year": "2026",
+      "month": "06",
+      "day": "13",
+      "dateLabel": "13/06/2026",
+      "width": null,
+      "height": null,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 406
+    },
+    {
       "src": "./src/media/2026/06/13/gia-lam-thuoc-nam.jpg",
       "thumbnail": "./src/media-thumbs/2026/06/13/gia-lam-thuoc-nam.webp",
       "fileName": "gia-lam-thuoc-nam.jpg",
