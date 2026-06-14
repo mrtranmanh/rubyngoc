@@ -1424,6 +1424,21 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/06/13/gia-lam-thuoc-nam.jpg",
+      "thumbnail": "./src/media-thumbs/2026/06/13/gia-lam-thuoc-nam.webp",
+      "fileName": "gia-lam-thuoc-nam.jpg",
+      "type": "image",
+      "title": "Lang Luận - Bắc Linh Quy, Thuan An",
+      "year": "2026",
+      "month": "06",
+      "day": "13",
+      "dateLabel": "13/06/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
