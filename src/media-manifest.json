@@ -1454,6 +1454,21 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/06/25/macdonal.jpg",
+      "thumbnail": "./src/media-thumbs/2026/06/25/macdonal.webp",
+      "fileName": "macdonal.jpg",
+      "type": "image",
+      "title": "kem Macdonal",
+      "year": "2026",
+      "month": "06",
+      "day": "25",
+      "dateLabel": "25/06/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
