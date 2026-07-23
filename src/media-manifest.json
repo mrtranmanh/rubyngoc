@@ -1484,6 +1484,21 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/07/22/Oc-Trang-DangVanNgu.jpg",
+      "thumbnail": "./src/media-thumbs/2026/07/22/Oc-Trang-DangVanNgu.webp",
+      "fileName": "Oc-Trang-DangVanNgu.jpg",
+      "type": "image",
+      "title": "Ốc Trang Đặng Văn Ngữ",
+      "year": "2026",
+      "month": "07",
+      "day": "22",
+      "dateLabel": "22/07/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
