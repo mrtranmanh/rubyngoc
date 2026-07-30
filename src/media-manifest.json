@@ -1514,6 +1514,36 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/07/27/cuon-cuon-Thai-Thinh.jpg",
+      "thumbnail": "./src/media-thumbs/2026/07/27/cuon-cuon-Thai-Thinh.webp",
+      "fileName": "cuon-cuon-Thai-Thinh.jpg",
+      "type": "image",
+      "title": "Cuôn cuốn Thái Thịnh",
+      "year": "2026",
+      "month": "07",
+      "day": "27",
+      "dateLabel": "27/07/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/07/27/sinh-nhat-752-lang.jpg",
+      "thumbnail": "./src/media-thumbs/2026/07/27/sinh-nhat-752-lang.webp",
+      "fileName": "sinh-nhat-752-lang.jpg",
+      "type": "image",
+      "title": "Sinh nhật 752 Láng",
+      "year": "2026",
+      "month": "07",
+      "day": "27",
+      "dateLabel": "27/07/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
