@@ -1574,6 +1574,21 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/09/12/Banh-da-hai-san-540-Truong-Chinh.jpg",
+      "thumbnail": "./src/media-thumbs/2026/09/12/Banh-da-hai-san-540-Truong-Chinh.webp",
+      "fileName": "Banh-da-hai-san-540-Truong-Chinh.jpg",
+      "type": "image",
+      "title": "Bánh đa hải sản 540 Trường Chinh",
+      "year": "2026",
+      "month": "09",
+      "day": "12",
+      "dateLabel": "12/09/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
