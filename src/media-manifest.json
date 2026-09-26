@@ -1589,6 +1589,21 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/09/25/trung-thu-ho-nam-dong.jpg",
+      "thumbnail": "./src/media-thumbs/2026/09/25/trung-thu-ho-nam-dong.webp",
+      "fileName": "trung-thu-ho-nam-dong.jpg",
+      "type": "image",
+      "title": "Trung thu hồ Nam Đồng",
+      "year": "2026",
+      "month": "09",
+      "day": "25",
+      "dateLabel": "25/09/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
