@@ -1604,6 +1604,21 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/10/03/Bun-nem-hai-san-Thai-Thinh.jpg",
+      "thumbnail": "./src/media-thumbs/2026/10/03/Bun-nem-hai-san-Thai-Thinh.webp",
+      "fileName": "Bun-nem-hai-san-Thai-Thinh.jpg",
+      "type": "image",
+      "title": "Bún nem hải sản Thái Thịnh",
+      "year": "2026",
+      "month": "10",
+      "day": "03",
+      "dateLabel": "03/10/2026",
+      "width": 2094,
+      "height": 2560,
+      "thumbnailWidth": 589,
+      "thumbnailHeight": 720
     }
   ]
 }
