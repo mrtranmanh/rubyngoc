@@ -1724,6 +1724,36 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/10/31/banh-troi-tau--Pham-Bang.jpg",
+      "thumbnail": "./src/media-thumbs/2026/10/31/banh-troi-tau--Pham-Bang.webp",
+      "fileName": "banh-troi-tau--Pham-Bang.jpg",
+      "type": "image",
+      "title": "Bánh trôi tàu - Phạm Bằng",
+      "year": "2026",
+      "month": "10",
+      "day": "31",
+      "dateLabel": "31/10/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/10/31/ga-tan-84-Pho-Hue.jpg",
+      "thumbnail": "./src/media-thumbs/2026/10/31/ga-tan-84-Pho-Hue.webp",
+      "fileName": "ga-tan-84-Pho-Hue.jpg",
+      "type": "image",
+      "title": "Gà tần 84 Phố Huế",
+      "year": "2026",
+      "month": "10",
+      "day": "31",
+      "dateLabel": "31/10/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
