@@ -1696,6 +1696,21 @@
       "thumbnailHeight": 720
     },
     {
+      "src": "./src/media/2026/10/25/nha-hat-Ho-Guom-Guom-2.jpg",
+      "thumbnail": "./src/media-thumbs/2026/10/25/nha-hat-Ho-Guom-Guom-2.webp",
+      "fileName": "nha-hat-Ho-Guom-Guom-2.jpg",
+      "type": "image",
+      "title": "Nhà hát Hồ Gươm 2",
+      "year": "2026",
+      "month": "10",
+      "day": "25",
+      "dateLabel": "25/10/2026",
+      "width": 1920,
+      "height": 2560,
+      "thumbnailWidth": 540,
+      "thumbnailHeight": 720
+    },
+    {
       "src": "./src/media/2026/10/25/nha-hat-Ho-Guom.jpg",
       "thumbnail": "./src/media-thumbs/2026/10/25/nha-hat-Ho-Guom.webp",
       "fileName": "nha-hat-Ho-Guom.jpg",
