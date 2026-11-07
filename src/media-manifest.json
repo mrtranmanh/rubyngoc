@@ -1754,6 +1754,51 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/11/01/zema-Pho-Hue.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/01/zema-Pho-Hue.webp",
+      "fileName": "zema-Pho-Hue.jpg",
+      "type": "image",
+      "title": "Zema Phố Huế",
+      "year": "2026",
+      "month": "11",
+      "day": "01",
+      "dateLabel": "01/11/2026",
+      "width": 1920,
+      "height": 2560,
+      "thumbnailWidth": 540,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/11/03/oc-Giang-Vo.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/03/oc-Giang-Vo.webp",
+      "fileName": "oc-Giang-Vo.jpg",
+      "type": "image",
+      "title": "Ốc Giảng Võ",
+      "year": "2026",
+      "month": "11",
+      "day": "03",
+      "dateLabel": "03/11/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/11/07/banh-khuc-Aeon-Cau-giay.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/07/banh-khuc-Aeon-Cau-giay.webp",
+      "fileName": "banh-khuc-Aeon-Cau-giay.jpg",
+      "type": "image",
+      "title": "Bánh khúc Aeon Cầu Giấy",
+      "year": "2026",
+      "month": "11",
+      "day": "07",
+      "dateLabel": "07/11/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
     }
   ]
 }
