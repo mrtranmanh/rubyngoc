@@ -1799,6 +1799,36 @@
       "height": 1047,
       "thumbnailWidth": 720,
       "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/11/07/caramen-Nguyen-Van-Tuyet.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/07/caramen-Nguyen-Van-Tuyet.webp",
+      "fileName": "caramen-Nguyen-Van-Tuyet.jpg",
+      "type": "image",
+      "title": "Caramen Nguyễn Văn Tuyết",
+      "year": "2026",
+      "month": "11",
+      "day": "07",
+      "dateLabel": "07/11/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/11/08/Go-Dong-Da.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/08/Go-Dong-Da.webp",
+      "fileName": "Go-Dong-Da.jpg",
+      "type": "image",
+      "title": "Gò Đống Đa",
+      "year": "2026",
+      "month": "11",
+      "day": "08",
+      "dateLabel": "08/11/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
