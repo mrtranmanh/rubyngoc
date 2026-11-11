@@ -1816,6 +1816,36 @@
       "thumbnailHeight": 720
     },
     {
+      "src": "./src/media/2026/11/08/canh-ghe-69-1.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/08/canh-ghe-69-1.webp",
+      "fileName": "canh-ghe-69-1.jpg",
+      "type": "image",
+      "title": "Canh ghẹ 69 ảnh 1",
+      "year": "2026",
+      "month": "11",
+      "day": "08",
+      "dateLabel": "08/11/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/11/08/canh-ghe-69-2.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/08/canh-ghe-69-2.webp",
+      "fileName": "canh-ghe-69-2.jpg",
+      "type": "image",
+      "title": "Canh ghẹ 69 ảnh 2",
+      "year": "2026",
+      "month": "11",
+      "day": "08",
+      "dateLabel": "08/11/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
       "src": "./src/media/2026/11/08/Go-Dong-Da.jpg",
       "thumbnail": "./src/media-thumbs/2026/11/08/Go-Dong-Da.webp",
       "fileName": "Go-Dong-Da.jpg",
