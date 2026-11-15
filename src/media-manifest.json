@@ -1859,6 +1859,51 @@
       "height": 2560,
       "thumbnailWidth": 294,
       "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/11/14/zema-pho-hue.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/14/zema-pho-hue.webp",
+      "fileName": "zema-pho-hue.jpg",
+      "type": "image",
+      "title": "Zema Phố Huế",
+      "year": "2026",
+      "month": "11",
+      "day": "14",
+      "dateLabel": "14/11/2026",
+      "width": 1920,
+      "height": 2560,
+      "thumbnailWidth": 540,
+      "thumbnailHeight": 720
+    },
+    {
+      "src": "./src/media/2026/11/15/20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-1.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/15/20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-1.webp",
+      "fileName": "20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-1.jpg",
+      "type": "image",
+      "title": "20 Năm Tạp Chí Giao Chức Nhà Khách - Bộ Quốc Phòng 1",
+      "year": "2026",
+      "month": "11",
+      "day": "15",
+      "dateLabel": "15/11/2026",
+      "width": 2560,
+      "height": 1047,
+      "thumbnailWidth": 720,
+      "thumbnailHeight": 294
+    },
+    {
+      "src": "./src/media/2026/11/15/20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-2.jpg",
+      "thumbnail": "./src/media-thumbs/2026/11/15/20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-2.webp",
+      "fileName": "20-nam-Tap-chi-Giao-Chuc-Nha-Khach-Bo-Quoc-Phong-2.jpg",
+      "type": "image",
+      "title": "20 Năm Tạp Chí Giao Chức Nhà Khách - Bộ Quốc Phòng 2",
+      "year": "2026",
+      "month": "11",
+      "day": "15",
+      "dateLabel": "15/11/2026",
+      "width": 1047,
+      "height": 2560,
+      "thumbnailWidth": 294,
+      "thumbnailHeight": 720
     }
   ]
 }
